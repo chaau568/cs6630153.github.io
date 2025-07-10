@@ -5,7 +5,7 @@
 a {
   text-decoration: none;
   color: white;
-  font-size: x-large;
+  font-size: 1.75rem;
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   padding-left: 40px;
@@ -17,6 +17,10 @@ a:hover {
   color: black;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+}
+
+div.navbar-left a {
+  font-size: 2.25rem;
 }
 
 div.navbar-container {
@@ -47,4 +51,26 @@ div.navbar-right a {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+div.lab-dropdown {
+  height: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+div.lab-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 100%;
+  z-index: 1;
+}
+
+div.lab-content a {
+  padding: 20px 20px;
+}
+
+div.lab-dropdown:hover .lab-content {
+  display: block;
 }
