@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.table-container {
+  border: 1px solid black;
+  border-spacing: 10px;
+  box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.25);
+}
+
+.table-row1 {
+  background-color: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.table-row1:hover {
+  background-color: rgb(42, 165, 93);
+  transition: 0.3s ease-in;
+  opacity: 1;
+}
+
+.content-row1 {
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.table-row2 {
+  background-color: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.table-row2:hover {
+  background-color: darkorange;
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.content-row2 {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}

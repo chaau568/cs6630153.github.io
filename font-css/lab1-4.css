@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+div.planets-container {
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  padding: 20px 20px;
+}
+
+div.head-title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+div.head-detail {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: darkblue;
+}
+
+pre {
+  font-size: 1.25rem;
+}
+
+div.planets-table {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+div.planets-table table {
+  border-collapse: collapse;
+}
+
+div.planets-table th {
+  border: 1px solid black;
+  padding: 20px 20px;
+  min-height: 5vh;
+  min-width: 6vw;
+  max-width: 15vw;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+div.planets-table td {
+  border: 1px solid black;
+  padding: 20px 20px;
+  text-align: center;
+  height: 100%;
+}
+
+.border-bold-top {
+  border-top: 5px solid black !important;
+  border-left: 5px solid black !important;
+  border-right: 5px solid black !important;
+  font-size: 2rem !important;
+  font-weight: bolder !important;
+}
+
+.border-bold-middle {
+  border-left: 5px solid black !important;
+  border-right: 5px solid black !important;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.border-bold-bottom {
+  border-bottom: 5px solid black !important;
+  border-left: 5px solid black !important;
+  border-right: 5px solid black !important;
+  font-size: 2rem;
+  font-weight: bolder;
+}
